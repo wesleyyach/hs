@@ -1,0 +1,145 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 0 7em 0;
+  }
+  
+  img {
+    height: 480px;
+    width: 960px;
+  }
+  
+  #titulo {
+    font-size: 5em;
+  }
+  
+  #subtitulo {
+    font-size: 1.5em;
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+  
+  .sub1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .txt1 {
+    flex-direction: column;
+  }
+  
+  .tsub1 {
+    font-size: 3em;
+    margin: 1em 10em 2em 10em;
+  }
+  
+  .psub1 {
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    padding-right: 35%;
+  }
+  
+  .sub2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .txt2 {
+    flex-direction: column;
+  }
+  
+  .tsub2 {
+    font-size: 3em;
+    margin: 1em 10em 2em 10em;
+  }
+  
+  .psub2 {
+    font-size: 1.5em;
+    margin-left: 3em;
+    margin-right: 5em;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    padding-left: 35%;
+  }
+  
+  .sub3 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .txt3 {
+    flex-direction: column;
+  }
+  
+  .tsub3 {
+    font-size: 3em;
+    margin: 1em 10em 2em 10em;
+    
+  }
+  
+  .psub3 {
+    font-size: 1.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    padding-right: 35%;
+  }
+  /*botao voltar*/
+  button {
+    display: flex;
+    height: 8em;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: royalblue;
+    font-size: 15px;
+    border-radius: 5em;
+    text-decoration:none;
+    border: none;
+    outline: none;
+   }
+   
+   button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+    border-radius: 200px;
+   }
+   .rodape {
+    color: #fff;
+    background: royalblue;
+    width: 100%;
+    height: 30%;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    flex-direction: column;
+  }
+  a {
+    text-decoration: none;
+    color: #000000;
+   }
+  

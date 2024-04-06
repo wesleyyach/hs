@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(215, 215, 215);
+}
+
+#img__familia {
+  display: flex;
+  margin-top: 5em;
+  margin-left: 10em;
+  position: absolute;
+}
+
+#familia {
+  width: 60em;
+  height: 30em;
+}
+
+#quadro {
+  background-color: white;
+  margin-top: 23em;
+  margin-left: 50em;
+  position: absolute;
+  height: 25em;
+  width: 60em;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo {
+  margin-top: 1em;
+  font-size: 4em;
+}
+
+#subtitulo {
+  margin: 0 5em 0 5em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.pessoas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sep1 {
+  background-color: white;
+  display: flex;
+  margin: 60em 2em 0 2em;
+  height: 60em;
+  width: 30em;
+}
+
+.sep2 {
+  background-color: white;
+  display: flex;
+  margin: 6em 2em 6em 2em;
+  height: 60em;
+  width: 30em;
+}
+
+.nome {
+  font-size: 1.5em;
+}
+
+.dados {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  height: 400px;
+  width: 350px;
+}
+
+.desc {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 4em 0 4em;
+}
+
+.desck {
+  font-size: 1em;
+  text-align: center;
+  margin: 1em 4em 0 4em;
+}
+button {
+  display: flex;
+  height: 8em;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  background: royalblue;
+  font-size: 15px;
+  border-radius: 5em;
+  text-decoration:none;
+  border: none;
+  outline: none;
+ }
+ 
+ button > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+ }
+ 
+ button:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+ }
+ 
+ button:hover {
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+  transform: translateY(-2px);
+  border-radius: 200px;
+ }
+ .rodape {
+  color: #fff;
+  background: royalblue;
+  width: 100%;
+  height: 30%;
+  padding: 8%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+ }
