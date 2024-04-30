@@ -1,0 +1,339 @@
+#centralizar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  font-size: 75px;
+}
+.centralizar2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.centralizar3 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.centralizar4 {
+  padding: 45px;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  width: 500px;
+  height: 400px;
+}
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 22px;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.image-container {
+  position: relative;
+}
+/*imagem solo logo*/
+.logo {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-left: 55em;
+  margin-top: -15em;
+}
+/*texto sobre na imagem*/
+#texto-sobre {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-bottom: 30em;
+  margin-left: 60em;
+  flex-direction: column;
+  width: 25em;
+  font-size: 1em;
+  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+}
+/*atividades*/
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+.container button {
+  background-color: rgb(121, 169, 253);
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+.container button.hidden {
+  background-color: transparent;
+  border-color: #fff;
+}
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+/*maleficios d vicios*/
+.image-text2 {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15.5em;
+  margin-top: -17.5em;
+}
+.botao2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 97px;
+}
+/*relatos ex dependentes*/
+.image-text3 {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 68em;
+  margin-top: -17.7em;
+}
+.botao3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+}
+/*botao sobre */
+.BotaoSobre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(121, 121, 121);
+  margin-left: 98em;
+  margin-top: -15em;
+}
+/* login */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 70px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  width: 70%;
+}
+
+.title {
+  font-size: 28px;
+  color: royalblue;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: royalblue;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+  background-color: royalblue;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: royalblue;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span {
+  color: green;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+/* acaba login*/
+.rodape {
+  color: #fff;
+  background: royalblue;
+  width: 100%;
+  height: 30%;
+  padding: 8%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  flex-direction: column;
+}
+.registro {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/*tirar sublinhado botao*/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/*banner de professores*/
+.bantxt {
+  display: flex;
+  flex-direction: row;
+}
+
+.bant {
+  font-size: 4em;
+  color: rgb(255, 255, 255);
+  margin: 1em 2em 1.5em 6em;
+  text-align: center;
+}
+
+.baninf {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 2em 1.5em 2em;
+  text-align: center;
+}
+
+.bansubt {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  margin: 2em 11em 1.5em 2em;
+  text-align: center;
+}
+
+.banb {
+  width: 200px;
+  height: 50px;
+  margin-left: 27em;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(121, 121, 121);
+  margin-top: -1.5em;
+
+}
+#banner {
+  height: 350px;
+  width: 100%;
+  background-color: rgb(49, 49, 49);
+}
